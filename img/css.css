@@ -1,0 +1,35 @@
+ body{
+	font-size:12px;
+	line-height:18px;
+	color:Gray;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+a
+{ font-size:12px;
+color:black;
+text-decoration:none;
+	}
+A:hover
+{font-size:12px;
+ color:red;
+ text-decoration: none;
+	
+	}
+A:visited
+{font-size:12px;
+ color:black;
+	
+	}
+ul{
+	   font-size:12px;
+        color:Gray
+     }
+ .f {
+list-style-image:url(file.gif);
+ inside;}
+ 
+  .w {
+list-style-image:url(folder.gif);
+ inside;}

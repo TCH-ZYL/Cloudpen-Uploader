@@ -1,0 +1,20 @@
+<head>
+	<title>文件上传页</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <link href="img/css.css" rel="stylesheet" type="text/css"> 
+    <script type="text/javascript" src="./img/mask.js"></script>
+</head>
+
+<body>
+	<?php header('Content-type: text/html; charset=utf-8'); ?>
+	<img src="img/logo.png" width=120 height=120 align="left"/><br/>
+<p><a href="http://zhuyalin.cn/2012/11/cloudpen-uploader%E5%8F%82%E8%B5%9B%E8%AF%B4%E6%98%8E/" target="_blank">点击这里查看《基于快盘的作业提交系统》参赛说明书</a>
+  <input name="button" type="button" onClick="openNewDiv(1)"  value="  点这里查看开发日志  " />
+</p>
+<p><font color="red">推荐使用Chrome、Firefox、IE9浏览器进行测试。</font></p>
+<p><a href="yanzheng.php">点击这里使用您的账号登录测试</a>　｜　
+<a href="dc.php">点击这里清除测试信息</a></p>
+<p>文件显示区</p>
+	<iframe src="metadata.php"  width=500 height=360 align="center"/>
+	
+</body>
